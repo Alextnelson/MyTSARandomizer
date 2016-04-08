@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B9783DE1CB7FF900092445A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9783DD1CB7FF900092445A /* AppDelegate.swift */; };
-		5B9783E01CB7FF900092445A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9783DF1CB7FF900092445A /* ViewController.swift */; };
+		5B9783E01CB7FF900092445A /* RandomizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9783DF1CB7FF900092445A /* RandomizerViewController.swift */; };
 		5B9783E31CB7FF900092445A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9783E11CB7FF900092445A /* Main.storyboard */; };
 		5B9783E51CB7FF900092445A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9783E41CB7FF900092445A /* Assets.xcassets */; };
 		5B9783E81CB7FF900092445A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9783E61CB7FF900092445A /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		5B9783DA1CB7FF900092445A /* MyTSARandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTSARandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9783DD1CB7FF900092445A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B9783DF1CB7FF900092445A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B9783DF1CB7FF900092445A /* RandomizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizerViewController.swift; sourceTree = "<group>"; };
 		5B9783E21CB7FF900092445A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B9783E41CB7FF900092445A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B9783E71CB7FF900092445A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				5B9783DD1CB7FF900092445A /* AppDelegate.swift */,
-				5B9783DF1CB7FF900092445A /* ViewController.swift */,
+				5B9783DF1CB7FF900092445A /* RandomizerViewController.swift */,
 				5B9783E11CB7FF900092445A /* Main.storyboard */,
 				5B9783E41CB7FF900092445A /* Assets.xcassets */,
 				5B9783E61CB7FF900092445A /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9783E01CB7FF900092445A /* ViewController.swift in Sources */,
+				5B9783E01CB7FF900092445A /* RandomizerViewController.swift in Sources */,
 				5B9783DE1CB7FF900092445A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +403,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.MyTSARandomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -414,6 +415,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.MyTSARandomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
