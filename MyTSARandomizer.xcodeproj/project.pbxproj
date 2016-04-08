@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B9783DE1CB7FF900092445A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9783DD1CB7FF900092445A /* AppDelegate.swift */; };
+		5B9783E01CB7FF900092445A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9783DF1CB7FF900092445A /* ViewController.swift */; };
+		5B9783E31CB7FF900092445A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9783E11CB7FF900092445A /* Main.storyboard */; };
+		5B9783E51CB7FF900092445A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9783E41CB7FF900092445A /* Assets.xcassets */; };
+		5B9783E81CB7FF900092445A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9783E61CB7FF900092445A /* LaunchScreen.storyboard */; };
+		5B9783F31CB7FF900092445A /* MyTSARandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9783F21CB7FF900092445A /* MyTSARandomizerTests.swift */; };
+		5B9783FE1CB7FF900092445A /* MyTSARandomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9783FD1CB7FF900092445A /* MyTSARandomizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B9783EF1CB7FF900092445A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B9783D21CB7FF900092445A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B9783D91CB7FF900092445A;
+			remoteInfo = MyTSARandomizer;
+		};
+		5B9783FA1CB7FF900092445A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B9783D21CB7FF900092445A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B9783D91CB7FF900092445A;
+			remoteInfo = MyTSARandomizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B9783DA1CB7FF900092445A /* MyTSARandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTSARandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9783DD1CB7FF900092445A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B9783DF1CB7FF900092445A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B9783E21CB7FF900092445A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B9783E41CB7FF900092445A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B9783E71CB7FF900092445A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B9783E91CB7FF900092445A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B9783EE1CB7FF900092445A /* MyTSARandomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTSARandomizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9783F21CB7FF900092445A /* MyTSARandomizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTSARandomizerTests.swift; sourceTree = "<group>"; };
+		5B9783F41CB7FF900092445A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B9783F91CB7FF900092445A /* MyTSARandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTSARandomizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9783FD1CB7FF900092445A /* MyTSARandomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTSARandomizerUITests.swift; sourceTree = "<group>"; };
+		5B9783FF1CB7FF900092445A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B9783D71CB7FF900092445A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9783EB1CB7FF900092445A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9783F61CB7FF900092445A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B9783D11CB7FF900092445A = {
+			isa = PBXGroup;
+			children = (
+				5B9783DC1CB7FF900092445A /* MyTSARandomizer */,
+				5B9783F11CB7FF900092445A /* MyTSARandomizerTests */,
+				5B9783FC1CB7FF900092445A /* MyTSARandomizerUITests */,
+				5B9783DB1CB7FF900092445A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B9783DB1CB7FF900092445A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B9783DA1CB7FF900092445A /* MyTSARandomizer.app */,
+				5B9783EE1CB7FF900092445A /* MyTSARandomizerTests.xctest */,
+				5B9783F91CB7FF900092445A /* MyTSARandomizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B9783DC1CB7FF900092445A /* MyTSARandomizer */ = {
+			isa = PBXGroup;
+			children = (
+				5B9783DD1CB7FF900092445A /* AppDelegate.swift */,
+				5B9783DF1CB7FF900092445A /* ViewController.swift */,
+				5B9783E11CB7FF900092445A /* Main.storyboard */,
+				5B9783E41CB7FF900092445A /* Assets.xcassets */,
+				5B9783E61CB7FF900092445A /* LaunchScreen.storyboard */,
+				5B9783E91CB7FF900092445A /* Info.plist */,
+			);
+			path = MyTSARandomizer;
+			sourceTree = "<group>";
+		};
+		5B9783F11CB7FF900092445A /* MyTSARandomizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B9783F21CB7FF900092445A /* MyTSARandomizerTests.swift */,
+				5B9783F41CB7FF900092445A /* Info.plist */,
+			);
+			path = MyTSARandomizerTests;
+			sourceTree = "<group>";
+		};
+		5B9783FC1CB7FF900092445A /* MyTSARandomizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B9783FD1CB7FF900092445A /* MyTSARandomizerUITests.swift */,
+				5B9783FF1CB7FF900092445A /* Info.plist */,
+			);
+			path = MyTSARandomizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B9783D91CB7FF900092445A /* MyTSARandomizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9784021CB7FF900092445A /* Build configuration list for PBXNativeTarget "MyTSARandomizer" */;
+			buildPhases = (
+				5B9783D61CB7FF900092445A /* Sources */,
+				5B9783D71CB7FF900092445A /* Frameworks */,
+				5B9783D81CB7FF900092445A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTSARandomizer;
+			productName = MyTSARandomizer;
+			productReference = 5B9783DA1CB7FF900092445A /* MyTSARandomizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B9783ED1CB7FF900092445A /* MyTSARandomizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9784051CB7FF900092445A /* Build configuration list for PBXNativeTarget "MyTSARandomizerTests" */;
+			buildPhases = (
+				5B9783EA1CB7FF900092445A /* Sources */,
+				5B9783EB1CB7FF900092445A /* Frameworks */,
+				5B9783EC1CB7FF900092445A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B9783F01CB7FF900092445A /* PBXTargetDependency */,
+			);
+			name = MyTSARandomizerTests;
+			productName = MyTSARandomizerTests;
+			productReference = 5B9783EE1CB7FF900092445A /* MyTSARandomizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B9783F81CB7FF900092445A /* MyTSARandomizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9784081CB7FF900092445A /* Build configuration list for PBXNativeTarget "MyTSARandomizerUITests" */;
+			buildPhases = (
+				5B9783F51CB7FF900092445A /* Sources */,
+				5B9783F61CB7FF900092445A /* Frameworks */,
+				5B9783F71CB7FF900092445A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B9783FB1CB7FF900092445A /* PBXTargetDependency */,
+			);
+			name = MyTSARandomizerUITests;
+			productName = MyTSARandomizerUITests;
+			productReference = 5B9783F91CB7FF900092445A /* MyTSARandomizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B9783D21CB7FF900092445A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jetwolfe Labs";
+				TargetAttributes = {
+					5B9783D91CB7FF900092445A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5B9783ED1CB7FF900092445A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5B9783D91CB7FF900092445A;
+					};
+					5B9783F81CB7FF900092445A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5B9783D91CB7FF900092445A;
+					};
+				};
+			};
+			buildConfigurationList = 5B9783D51CB7FF900092445A /* Build configuration list for PBXProject "MyTSARandomizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B9783D11CB7FF900092445A;
+			productRefGroup = 5B9783DB1CB7FF900092445A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B9783D91CB7FF900092445A /* MyTSARandomizer */,
+				5B9783ED1CB7FF900092445A /* MyTSARandomizerTests */,
+				5B9783F81CB7FF900092445A /* MyTSARandomizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B9783D81CB7FF900092445A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9783E81CB7FF900092445A /* LaunchScreen.storyboard in Resources */,
+				5B9783E51CB7FF900092445A /* Assets.xcassets in Resources */,
+				5B9783E31CB7FF900092445A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9783EC1CB7FF900092445A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9783F71CB7FF900092445A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B9783D61CB7FF900092445A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9783E01CB7FF900092445A /* ViewController.swift in Sources */,
+				5B9783DE1CB7FF900092445A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9783EA1CB7FF900092445A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9783F31CB7FF900092445A /* MyTSARandomizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9783F51CB7FF900092445A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9783FE1CB7FF900092445A /* MyTSARandomizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B9783F01CB7FF900092445A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B9783D91CB7FF900092445A /* MyTSARandomizer */;
+			targetProxy = 5B9783EF1CB7FF900092445A /* PBXContainerItemProxy */;
+		};
+		5B9783FB1CB7FF900092445A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B9783D91CB7FF900092445A /* MyTSARandomizer */;
+			targetProxy = 5B9783FA1CB7FF900092445A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B9783E11CB7FF900092445A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B9783E21CB7FF900092445A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B9783E61CB7FF900092445A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B9783E71CB7FF900092445A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B9784001CB7FF900092445A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B9784011CB7FF900092445A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B9784031CB7FF900092445A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyTSARandomizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.MyTSARandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B9784041CB7FF900092445A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyTSARandomizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.MyTSARandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B9784061CB7FF900092445A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyTSARandomizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.MyTSARandomizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTSARandomizer.app/MyTSARandomizer";
+			};
+			name = Debug;
+		};
+		5B9784071CB7FF900092445A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyTSARandomizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.MyTSARandomizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTSARandomizer.app/MyTSARandomizer";
+			};
+			name = Release;
+		};
+		5B9784091CB7FF900092445A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyTSARandomizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.MyTSARandomizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyTSARandomizer;
+			};
+			name = Debug;
+		};
+		5B97840A1CB7FF900092445A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyTSARandomizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetwolfelabs.MyTSARandomizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyTSARandomizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B9783D51CB7FF900092445A /* Build configuration list for PBXProject "MyTSARandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9784001CB7FF900092445A /* Debug */,
+				5B9784011CB7FF900092445A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B9784021CB7FF900092445A /* Build configuration list for PBXNativeTarget "MyTSARandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9784031CB7FF900092445A /* Debug */,
+				5B9784041CB7FF900092445A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B9784051CB7FF900092445A /* Build configuration list for PBXNativeTarget "MyTSARandomizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9784061CB7FF900092445A /* Debug */,
+				5B9784071CB7FF900092445A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B9784081CB7FF900092445A /* Build configuration list for PBXNativeTarget "MyTSARandomizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9784091CB7FF900092445A /* Debug */,
+				5B97840A1CB7FF900092445A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B9783D21CB7FF900092445A /* Project object */;
+}
